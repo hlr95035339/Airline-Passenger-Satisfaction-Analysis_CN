@@ -31,7 +31,7 @@
 
 👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-👉 English version available at [Airline Passenger Satisfaction Analysis](https://github.com/hlr95035339/Airline-Passenger-Satisfaction-Analysis)
+ 👉 English version available at [Airline Passenger Satisfaction Analysis](https://github.com/hlr95035339/Airline-Passenger-Satisfaction-Analysis)
 ---
 
 ## 商業洞察
