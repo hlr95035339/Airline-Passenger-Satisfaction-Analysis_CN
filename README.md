@@ -1,9 +1,33 @@
 # 航空旅客滿意度分析
 
 ## 專案簡介
-本專案使用 Kaggle 公開資料集 **test.csv**，並透過 Python (`script.py`) 進行數據清理與分析，搭配 Tableau 建立互動式儀表板，探討 **航班延誤、艙等、旅客忠誠度** 對旅客滿意度的影響。
+ **航班延誤如何影響旅客滿意度，應該優先改善哪些因素？** <small>透過分析航班延誤、艙等與旅客忠誠度，找出影響滿意度的關鍵因素，並提出可執行的營運策略。
 
 ---
+
+## 核心發現
+- **當航班延誤超過 15 分鐘 時，滿意度明顯下降**，影響在經濟艙最為顯著
+- **商務艙旅客對延誤較不敏感**，顯示價格與服務品質具緩衝效果
+- **忠誠旅客在延誤情境下仍維持較高滿意度**，有助於降低顧客流失
+  
+---
+
+## 商業建議
+基於分析結果與影響程度評估：
+- 優先控制延誤時間（最高影響） → 建議將平均延誤控制在 15 分鐘內，以避免滿意度顯著下降
+- 針對經濟艙提供補償機制（高CP策略） → 透過餐券或里程補償，可有效提升延誤情境下的滿意度
+- 強化忠誠計畫（長期策略） → 提高顧客對負面體驗的容忍度，降低流失率
+
+---
+
+## 視覺化成果
+![航空旅客滿意度儀表板](Dashboard.png)
+
+👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<small>👉 English version available at [Airline Passenger Satisfaction Analysis](https://github.com/hlr95035339/Airline-Passenger-Satisfaction-Analysis)</small>
+
+ ---
 
 ## 數據來源
 - Kaggle Airline Passenger Satisfaction Dataset (`test.csv`)
@@ -16,39 +40,23 @@
 ---
 
 ## 分析方法
-- **Python (`script.py`)**
-  - 使用 Pandas 進行資料清理與轉換
-  - 計算延誤與滿意度的相關性
-  - 分組比較不同艙等與旅客類型的差異
-- **Tableau**
-  - 建立 KPI 卡片、長條圖、散點圖、圓餅圖
-  - 儀表板整合，提供互動式探索
+- 使用 Python（Pandas）進行資料清理與探索性分析
+- 分析延誤時間與滿意度之關聯
+- 比較不同艙等與旅客類型之差異
+- 使用 Tableau 建立互動式儀表板，支援決策分析
+  
 
 ---
 
-## 視覺化成果
-![航空旅客滿意度儀表板](Dashboard.png)
-
-👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-<small>👉 English version available at [Airline Passenger Satisfaction Analysis](https://github.com/hlr95035339/Airline-Passenger-Satisfaction-Analysis)</small>
-   
+## 專案價值
+展示數據分析到商業決策的完整流程，能協助企業：
+- 找出影響顧客滿意度的關鍵因素
+- 制定優先改善策略
+- 在提升服務品質的同時優化營運成本
+  
 ---
 
-## 商業洞察
-- **延誤顯著降低滿意度**，尤其在經濟艙旅客中更明顯。  
-- **商務艙旅客**對延誤的容忍度較高。  
-- **忠誠旅客**在延誤情況下仍維持較高滿意度，顯示忠誠計畫的重要性。  
-- **營運 KPI 建議**：將平均延誤控制在 15 分鐘以內，以維持整體滿意度。  
-
----
-
-## 結論
-透過改善航班準點率、加強經濟艙補償措施，以及強化忠誠計畫，航空公司能有效提升旅客滿意度並促進長期收益。
-
----
-
-## 展示技能
-- Python 數據分析 (`script.py`)  
-- Tableau 儀表板設計與 KPI 故事化  
-- 商業洞察與策略建議  
+## 技能展示
+- Python（資料清理、探索性分析）
+- Tableau（儀表板設計與數據敘事）
+- 商業分析與洞察轉化
