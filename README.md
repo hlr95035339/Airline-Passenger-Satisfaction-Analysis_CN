@@ -34,15 +34,18 @@
   - 艙等
   - 旅客類型（忠誠 vs 非忠誠）
 
-### 模型洞察
+## 模型洞察
 - 延誤時間為**最顯著負向影響因子**
 - 商務艙與忠誠旅客具有**正向影響係數**
 - 模型結果與探索性分析一致，強化結論可信度
+  
+![Logistic Regression 分析結果](Dashboard_2.png)
 
-![Logistic Regression 分析結果](dashboard_2.png)
 
 👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 👉 [查看進階分析儀表板（Drivers Analysis）](https://public.tableau.com/views/AirlineSatisfactionDrivers/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_lin)
+
 <small>👉 English version available at [Airline Passenger Satisfaction Analysis](https://github.com/hlr95035339/Airline-Passenger-Satisfaction-Analysis)</small>
 
  ---
