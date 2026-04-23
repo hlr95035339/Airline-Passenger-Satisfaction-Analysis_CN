@@ -39,7 +39,7 @@
 - 商務艙與忠誠旅客具有**正向影響係數**
 - 模型結果與探索性分析一致，強化結論可信度
   
-![Logistic Regression 分析結果](Dashboard_2.png)
+![Logistic Regression 分析結果](Dashboard_1.png)
 
 
 👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -63,7 +63,7 @@
 ## 分析方法
 - 使用 Python（Pandas）進行資料清理與探索性分析
 - 分析延誤時間與滿意度之關聯
-- 比較不同艙等與旅客類型之差異
+- 使用 Logistic Regression 建立預測模型
 - 使用 Tableau 建立互動式儀表板，支援決策分析
   
 
