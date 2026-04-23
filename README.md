@@ -80,4 +80,5 @@
 ## 技能展示
 - Python（資料清理、探索性分析）
 - Tableau（儀表板設計與數據敘事）
+- Logistic Regression（預測建模）
 - 商業分析與洞察轉化
