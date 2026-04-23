@@ -23,8 +23,26 @@
 ## 視覺化成果
 ![航空旅客滿意度儀表板](Dashboard.png)
 
-👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+---
 
+## 模型分析（Logistic Regression）
+為了進一步量化各因素對滿意度的影響，本專案使用 **Logistic Regression** 建立預測模型：
+
+- 目標變數：滿意 / 不滿意
+- 特徵變數：
+  - 航班延誤時間
+  - 艙等
+  - 旅客類型（忠誠 vs 非忠誠）
+
+### 模型洞察
+- 延誤時間為**最顯著負向影響因子**
+- 商務艙與忠誠旅客具有**正向影響係數**
+- 模型結果與探索性分析一致，強化結論可信度
+
+![Logistic Regression 分析結果](dashboard_2.png)
+
+👉 [查看 Tableau Public 互動版儀表板](https://public.tableau.com/views/AirlinePassengerSatisfactionAnalysis_17768549589120/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+👉 [查看進階分析儀表板（Drivers Analysis）](https://public.tableau.com/views/AirlineSatisfactionDrivers/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_lin)
 <small>👉 English version available at [Airline Passenger Satisfaction Analysis](https://github.com/hlr95035339/Airline-Passenger-Satisfaction-Analysis)</small>
 
  ---
